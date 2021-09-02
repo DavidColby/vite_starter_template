@@ -20,15 +20,15 @@ Once this file exists with the `-m` option provided, you can simply run `rails n
 
 ## What's included?
 * Ruby on Rails
-* Stimulus
-* StimulusReflex
-* Turbo (Turbo Drive and Turbo Frames work well with StimulusReflex, you won't need Turbo Streams with SR)
-* WindiCSS
-* Vite
+* [Stimulus](https://stimulus.hotwired.dev/)
+* [Stimulus Reflex](https://docs.stimulusreflex.com/)
+* [Turbo](https://github.com/hotwired/turbo-rails) (Turbo Drive and Turbo Frames work well with StimulusReflex, you won't need Turbo Streams with SR)
+* [WindiCSS](https://windicss.org/)
+* [Vite](https://vite-ruby.netlify.app/)
 
-Common Rails gems like Devise are NOT included, intentionally. My goal is to provide an unopinionated base application that can be built upon freely.
+Common Rails gems like Devise are NOT included, intentionally. My goal is to provide a light base application that can be built upon freely.
 
-Looking for something with more features? There are great options out there for more opinionated and full-featured Rails starters, including [Jumpstart](https://github.com/excid3/jumpstart) and [Jumpstart Vite](https://github.com/ElMassimo/jumpstart-vite), which provided inspiration for me while putting this simpler starter together.
+Looking for something with more features? There are great options out there for more opinionated and full-featured Rails starters, including [Jumpstart](https://github.com/excid3/jumpstart) and [Jumpstart Vite](https://github.com/ElMassimo/jumpstart-vite), which provided inspiration for me while putting this lighter starter template together.
 
 ## Contributing
 Issues and PRs are welcome.
