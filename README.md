@@ -21,10 +21,12 @@ Once this file exists with the `-m` option provided, you can simply run `rails n
 ## What's included?
 * Ruby on Rails
 * [Stimulus](https://stimulus.hotwired.dev/)
-* [Stimulus Reflex](https://docs.stimulusreflex.com/)
-* [Turbo](https://github.com/hotwired/turbo-rails) (Turbo Drive and Turbo Frames work well with StimulusReflex, you won't need Turbo Streams with SR)
-* [WindiCSS](https://windicss.org/)
-* [Vite](https://vite-ruby.netlify.app/)
+* [Stimulus Reflex](https://docs.stimulusreflex.com/) - The star of the frontend show
+* [Turbo](https://github.com/hotwired/turbo-rails) - Turbo Drive and Turbo Frames work well with StimulusReflex, you won't use Turbo Streams with SR
+* [WindiCSS](https://windicss.org/) - A fully-compatible alternative to Tailwind 2
+* [Vite](https://vite-ruby.netlify.app/) - Fast, easy, delightful
+* [Stimulus HMR Vite Plugin](https://github.com/ElMassimo/vite-plugin-stimulus-hmr) - See changes to your Stimulus controllers automatically
+* [Full Reload Vite Plugin](https://github.com/ElMassimo/vite-plugin-full-reload) - See changes to your server rendered templates automatically
 
 Common Rails gems like Devise are NOT included, intentionally. My goal is to provide a light base application that can be built upon freely.
 

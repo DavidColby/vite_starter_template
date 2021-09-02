@@ -86,10 +86,26 @@ after_bundle do
     end
   end
   say
-  say "Vite Rails app successfully created!", :blue
+  say 'Vite Rails app successfully created!', :green
   say
-  say "To get started with your new app:", :green
-  say "  rails db:create db:migrate"
-  say "  bin/vite dev"
-  say "  rails s"
+  say 'Get started:', :cyan
+  say "  cd #{@app_name}"
+  say '  rails db:create db:migrate'
+  say '  bin/vite dev'
+  say '  rails s'
+  say '**Make sure you have redis running in your dev environment**', :yellow
+  say
+  say 'Navigating your new app:', :cyan
+  say
+  say 'Find front end assets in app/javascript'
+  say
+  say 'Add new npm packages with:'
+  say '  yarn add your_package'
+  say
+  say 'Add new Vite plugins in vite.config.ts'
+  say
+  say 'Create new reflexes with:'
+  say '  rails g stimulus_reflex Example'
+  say
+  say 'Have fun!', :green
 end
