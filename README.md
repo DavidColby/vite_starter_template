@@ -8,7 +8,7 @@ In addition to a modern, StimulusReflex-powered user experience, we use [Vite](h
 ## Usage
 To get started, create a new Ruby on Rails application, passing in this template with the `-m` option:
 
-_ℹ️ You must have the `pry` gem installed, otherwise line 3 of template.rb will cause an error. Run `gem install pry` to install._
+_ℹ️ You must have the `pry` gem installed, otherwise the line `require 'pry'` in `template.rb` will raise an error. Run `gem install pry` to install the dependency._
 ```
 rails new your_new_application -m https://raw.githubusercontent.com/davidcolby/vite_starter_template//main/template.rb
 ```
