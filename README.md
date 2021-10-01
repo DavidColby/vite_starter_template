@@ -6,7 +6,10 @@ powered by [Stimulus Reflex](https://docs.stimulusreflex.com/), with [Turbo](htt
 In addition to a modern, StimulusReflex-powered user experience, we use [Vite](https://vite-ruby.netlify.app/) instead of Webpacker so we can spend less time fighting with our build tools and more time delivering value to our users.
 
 ## Usage
+
 To get started, create a new Ruby on Rails application, passing in this template with the `-m` option:
+
+_ℹ️ You must have the `pry` gem installed, otherwise line 3 of template.rb will cause an error. Run `gem install pry` to install._
 ```
 rails new your_new_application -m https://raw.githubusercontent.com/davidcolby/vite_starter_template//main/template.rb
 ```
